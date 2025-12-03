@@ -17,6 +17,6 @@ function dec2bin(dec) { return (dec >>> 0).toString(2); }
 function deepCopy(input) { return JSON.parse(JSON.stringify(input)); }
 /** ====================================== */
 
-dayXX(
+var dayInput = "";
 
-);
+dayXX(dayInput);
