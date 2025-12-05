@@ -1,4 +1,4 @@
-function dayXX(input) {
+function dayXXa(input) {
   
 }
 
@@ -9,6 +9,7 @@ function arrayIntersection(array1, array2) { return array1.filter(value => array
 function removeItemFromArray(inputArr, val) { if (arrayContains(inputArr, val)) { inputArr.splice(inputArr.indexOf(val), 1); } }
 // Strings
 function replaceCharAt(inputStr, index, character) { return inputStr.substr(0, index) + character + inputStr.substr(index + 1); }
+function cutOutCharAt(inputStr, index) { return inputStr.substr(0, index) + inputStr.substr(index + 1); }
 function stringContains(inputStr, subStr) { return inputStr.indexOf(subStr) !== -1; }
 // Binary
 function bin2dec(bin) { return parseInt(bin, 2); }
@@ -18,5 +19,7 @@ function deepCopy(input) { return JSON.parse(JSON.stringify(input)); }
 /** ====================================== */
 
 var dayInput = "";
+//var dayInput = "";
 
-dayXX(dayInput);
+dayXXa(dayInput);
+//dayXXb(dayInput);
